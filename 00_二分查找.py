@@ -22,5 +22,5 @@ def binary_search(list, item):
 
 
 arr = [1, 4, 2, 5, 7]
-print binary_search(arr, 1)
+print(binary_search(arr, 5))
 

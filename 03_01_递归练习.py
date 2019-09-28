@@ -18,7 +18,7 @@ def sum_number(arr, total=0):
 
 
 aa = sum_number([1, 2, 3])
-print aa
+print(aa)
 
 
 def count_list(arr, count=0):
@@ -35,7 +35,7 @@ def count_list(arr, count=0):
         return count
 
 
-print count_list([1, 2])
+print(count_list([1, 2]))
 
 
 def find_max(arr, max=0):
@@ -54,4 +54,4 @@ def find_max(arr, max=0):
         return max
 
 
-print find_max([1, 2, 123, 999, 123, 555, 666])
+print(find_max([1, 2, 123, 999, 123, 555, 666]))

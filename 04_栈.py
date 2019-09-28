@@ -2,18 +2,18 @@
 
 
 def greet(name):
-    print 'hello' + name
+    print('hello' + name)
     greet2(name)
-    print 'say bye'
+    print('say bye')
     bye(name)
 
 
 def greet2(name):
-    print '2'
+    print('2')
 
 
 def bye(name):
-    print '886' + name
+    print('886' + name)
 
 
 greet('小明')
@@ -38,4 +38,4 @@ def tail_recursion(n, total=0):
          return tail_recursion(n-1,  total+n)
 
 
-print tail_recursion(10)
+print(tail_recursion(10))

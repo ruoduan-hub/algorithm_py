@@ -4,7 +4,7 @@
 """
 
 def count_down(i):
-    print i
+    print(i)
     if i <= 1:  # 基线条件 (base case)
         return
     else:  # 递归条件 (recursive csae)
