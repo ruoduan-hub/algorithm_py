@@ -1,4 +1,5 @@
-# algorithm_py
-use Python algorithm
+# :computer: algorithm_py
+>  :memo: use Python algorithm
 
-ing ...
+- :pushpin: ing ...
+
