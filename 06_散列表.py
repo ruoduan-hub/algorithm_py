@@ -1,8 +1,14 @@
 # 创建一个散列表 python的实现方式为字典
-book = dict()
-book['apple'] = 0.62
-book['mile'] = 3.5
-book['test'] = '哈哈哈'
+# book = dict()
+# book['apple'] = 0.62
+# book['mile'] = 3.5
+# book['test'] = '哈哈哈'
+
+book = {
+    'apple': 0.62,
+    'mile': 3.5,
+    'test': '哈哈哈'
+}
 
 print(book['test'])
 
@@ -25,7 +31,8 @@ while True:
             print('%s的电话是：%s' %(s_name, phone_book[s_name]))
         else:
             up_tel = input('联系人不存在，增加联系人输入电话，退出请按q: ')
-            if up_tel == 'q' : break
+            if up_tel == 'q':
+                break
             phone_book[s_name] = up_tel
     else:
         print('输入错误')
